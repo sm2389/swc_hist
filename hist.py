@@ -7,3 +7,5 @@ sigma = 10
 x = np.random.normal(mu, sigma, 100)
 
 print("random normal array mean centered",x[:10])
+
+print("mean", np.mean(x))
