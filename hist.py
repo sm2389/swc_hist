@@ -5,3 +5,5 @@ mu = 80
 sigma = 10
 
 x = np.random.normal(mu, sigma, 100)
+
+print("random normal array mean centered",x[:10])
